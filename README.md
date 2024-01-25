@@ -35,9 +35,9 @@ ebhttps是首款基于eBPF技术的开源web应用防火墙，最大的优点是
 ```
 首先运行cat /boot/config-$(uname -r) | grep CONFIG_DEBUG_INFO_BTF确认系统支持BTF选项，并安装编译环境。
 CentOS/Fedora: 
-  	yum install elfutils-libelf-devel gcc make  	
+  	yum install elfutils-libelf-devel gcc make pcre-devel	
 Debian/Ubuntu:
-  	apt-get install libelf-dev gcc make
+  	apt-get install libelf-dev gcc make libpcre3-dev 
 直接make即可生成可执行文件ebhttps。
 ```
 
