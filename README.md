@@ -84,7 +84,7 @@ ebhttps start ok...sql injection attack example:  curl or wget https://www.baidu
 
 #### 四、实战演示地址
 
-实战地址 [http://59.110.1.135/](http://59.110.1.135/)
+实战地址 [http://101.42.31.94/](http://101.42.31.94/)
 
 #### 五、源码部署请加微信号4108863或者httpwaf
 
